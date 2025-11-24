@@ -7,8 +7,6 @@ public class CalculadoraDeCambio {
             EncontraTaxa encontraTaxa = new EncontraTaxa();
             Moeda novaMoeda = encontraTaxa.converterMoeda(moedaOrigem, moedaConvertida);
 
-            double valorParaConverter = 1.0;
-            double valorConvertido = valorParaConverter * novaMoeda.conversion_rate();
 
             System.out.println("A taxa de conversão de 1 " + DicionarioDeMoedas.getNomeMoeda(moedaOrigem) +
                     " para " + DicionarioDeMoedas.getNomeMoeda(moedaConvertida) +
@@ -20,7 +18,7 @@ public class CalculadoraDeCambio {
 
         } catch (RuntimeException | InterruptedException e) {
             System.out.println(e.getMessage());
-            System.out.println("Finalizando a aplicação.");
+            System.out.println("Não foi possível essa conversão");
         }
     }
 }

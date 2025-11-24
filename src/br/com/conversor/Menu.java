@@ -29,8 +29,9 @@ public class Menu {
                 break;
             }
 
-            String moedaOrigem = "";
-            String moedaConvertida = "";
+            String moedaOrigem;
+            String moedaConvertida;
+
 
             switch (opcao) {
                 case 1 -> {
