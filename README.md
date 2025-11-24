@@ -2,6 +2,8 @@
 
 ## 📖 Sobre o Projeto
 
+## -Na classe EncontraTaxa não se escuqeça de por a sua chave da API na linha 13
+
 Este é um conversor de moedas desenvolvido em Java, como parte do desafio proposto pelo programa **Oracle Next Education (ONE)** em parceria com a **Alura Latam**.
 
 A aplicação permite ao usuário converter valores entre um conjunto pré-definido de moedas. As taxas de câmbio são obtidas em tempo real através da API pública [ExchangeRate-API](https://www.exchangerate-api.com/), garantindo que os valores de conversão estejam sempre atualizados.
