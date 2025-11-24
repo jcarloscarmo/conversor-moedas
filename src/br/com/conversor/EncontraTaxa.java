@@ -10,7 +10,7 @@ public class EncontraTaxa {
 
     public Moeda converterMoeda(String moedaOrigem, String moedaConvertida) {
         // Monta a URL para conversão de PAR(pair da API) (ex: USD para BRL)
-        URI endereco = URI.create("https://v6.exchangerate-api.com/v6/d2bb284f68cdd8d5ad5f2304/pair/" + moedaOrigem + "/" + moedaConvertida);
+        URI endereco = URI.create("https://v6.exchangerate-api.com/v6/ **SUA CHAVE DE API** /pair/" + moedaOrigem + "/" + moedaConvertida);
 
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(endereco)
